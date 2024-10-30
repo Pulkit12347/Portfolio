@@ -1,0 +1,36 @@
+.mt-1{
+    margin-top: 0.5em;
+}
+.mt-2{
+    margin-top: 1em;
+}
+.mt-3{
+    margin-top: 1.5em;
+}
+.mt-4{
+    margin-top: 2em;
+}
+
+
+.my-1{
+    margin-block: 0.5em;
+}
+.my-2{
+    margin-block: 1em;
+}
+.my-3{
+    margin-block: 1.5em;
+}
+.my-4{
+    margin-block: 2em;
+}
+.red{
+    color: #ec0027;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+.white{
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5em;
+}

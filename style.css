@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    /* outline: 2px solid black; */
+}
+.outline{
+    outline: 2px solid black;
+}
+:root{
+    --main-bg: #FFF7F5;
+    --main-font-color: #332e2e;
+    --main-accent: #d9ffb6;
+}
+a{
+    color: var(--main-font-color);
+    text-decoration: none;
+}
+body{
+    min-height: 100vh;
+    background-color: var(--main-bg);
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 8em;
+}
+nav ul{
+    display: flex;
+    gap: 2em;
+    list-style: none;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.name-heading{
+    font-size: 1.65em;
+    font-weight: 700;
+    text-wrap: wrap;
+    width: 6ch;
+}
+.hello{
+    font-size: 3em;
+    font-weight: 400;
+}
+.name-main{
+    font-weight: 800;
+    font-size: 4.5em;
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+}
+
+.first-block{
+    margin-top: 10vh;
+    color: var(--main-font-color);
+    display: flex;
+    max-height: min-content;
+    padding: 0 8em;
+    /* justify-content: space-between; */
+}
+
+.desc{
+    font-size: 1.3em;
+}
+
+#typedjs, .typed-cursor{
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.home-main-img{
+    border: 2px solid red;
+    /* width: 40%; */
+}
+
+
+/* CSS */
+.button-main {
+  background-color: var(--main-bg);
+  margin: 1em 0 0 0 ;
+  border: 1px solid var(--main-font-color);
+  border-radius: 30px;
+  box-shadow: var(--main-font-color) -4px 4px 0 0;
+  color: var(--main-font-color);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.25em;
+  line-height: 2.3em;
+  text-align: center;
+  text-decoration: none;
+  min-width: 120px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+
+.button-main:active {
+  box-shadow: var(--main-font-color) -2px 2px 0 0;
+  transform: translate(-2px, 2px);
+}
+
+
+.second-block-alt{
+    margin-top: 3em;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 3em;
+    text-align: center;
+    font-size: 150%;
+    background-color: #d9ffb6;
+    color: var(--main-font-color);
+}
+.second-block-alt button{
+    font-size: 1em;
+}
+.third-block{
+    margin-top: 4em;
+    padding: 0 4em;
+}
+.third-block h1{
+    text-align: center;
+}
+.cards-container{
+    display: flex;
+    gap: 2em;
+    margin-top: 3em;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    border: 2px solid var(--main-font-color);
+    width: 300px;
+    min-width: 300px;
+    border-radius: 20px;
+    background-color: var(--main-font-color);
+    transition: background-color 0.5s ease;
+}
+.upper{
+    background-color: var(--main-font-color);
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+
+}
+.divider{
+    background-color: var(--main-accent);
+    border: var(--main-font-color) 1px solid;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 8px;
+    width: 80px;
+    margin: 0.5em 0.7em;
+    transition: width 0.5s ease;
+}
+.card:hover{
+    background-color: var(--main-bg);
+    border: 2px dashed var(--main-font-color);
+}
+.card:hover .divider{
+    width: 120px;
+
+}
+.card:hover .description{
+    color: var(--main-font-color);
+}
+.card:hover .white{
+    color: var(--main-font-color);
+}
+.card h2{
+
+    margin-block: 0.5em;
+}
+.description{
+    padding: 0 0.7em 0.5em 0.7em;
+    color: var(--main-bg);
+    font-weight: 700;
+    transition: color 0.5s ;
+}
+.card-header{
+    margin: 0 0.7em;
+}
+.card-img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+footer{
+    padding: 2em 2em 2em 2em;
+    margin-top: 5em;
+    text-align: center;
+    background-color: #f4eae7;
+    box-shadow: 0 0 5px -4px black;
+}
+@media (min-width: 768px) {
+  .button-main {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
