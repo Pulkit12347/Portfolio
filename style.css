@@ -153,7 +153,10 @@ nav ul{
     background-color: var(--main-font-color);
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
-
+    height: 50%;
+}
+.upper img{
+    height: 100%;
 }
 .divider{
     background-color: var(--main-accent);
