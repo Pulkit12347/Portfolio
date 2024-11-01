@@ -202,6 +202,12 @@ nav ul{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+.second-block-alt div h2{
+    font-weight: 300;
+}
+.second-block-alt div h2 span{
+    font-weight: 700;
+}
 footer{
     padding: 2em 2em 2em 2em;
     margin-top: 5em;
