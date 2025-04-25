@@ -13,6 +13,7 @@
     --main-bg: #FFF7F5;
     --main-font-color: #332e2e;
     --main-accent: #d9ffb6;
+
 }
 a{
     color: var(--main-font-color);
@@ -119,7 +120,7 @@ nav ul{
     padding: 3em;
     text-align: center;
     font-size: 150%;
-    background-color: #d9ffb6;
+    background-color: var(--main-accent);
     color: var(--main-font-color);
 }
 .second-block-alt button{
