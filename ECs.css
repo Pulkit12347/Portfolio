@@ -1,0 +1,18 @@
+.block-img{
+    height: 10em;
+    width: 10em;
+    background-color: blue;
+}
+.hamaraExperience, .freelanceExperience{
+    padding: 2em 8em;
+    
+}
+.hamaraExperience img{
+    width: 400px;
+    display: inline;
+    float: inline-start;
+    margin-right: 1em;
+}
+.hamaraExperience p, .freelanceExperience p{
+    font-size: 1.25em;
+}
